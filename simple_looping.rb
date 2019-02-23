@@ -2,13 +2,11 @@
 
 def loop_iterator(number_of_times)
     x=0
-    
-      loop do
-    
+    loop do
+    while x<number_of_times
       puts"Welcome to Flatiron School's Web Development Course!"
-      x+-1
-      if x = 7 break
-  
+      x+=1
+      
   end
 end
 
