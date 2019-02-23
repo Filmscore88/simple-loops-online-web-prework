@@ -6,7 +6,8 @@ def loop_iterator(number_of_times)
       puts"Welcome to Flatiron School's Web Development Course!"
       x+=l 
       if x==number_of_times
-        break
+   break
+ end 
   end
 end 
 def times_iterator(number_of_times)
