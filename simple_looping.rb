@@ -1,12 +1,13 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-  
-  
-  
-  
-   "Welcome to Flatiron School's Web Development Course!"
-  
+    x=0
+    
+      loop do
+        while x<7
+        
+    puts  "Welcome to Flatiron School's Web Development Course!"
+    end
 end
 
 def times_iterator(number_of_times)
