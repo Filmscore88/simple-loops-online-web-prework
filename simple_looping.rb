@@ -4,10 +4,11 @@ def loop_iterator(number_of_times)
     x=0
     loop do
       puts"Welcome to Flatiron School's Web Development Course!"
-      x+=1
+      x=x+1
+      
     if x=number_of_times
       break
-     end 
+     
    end
 end
 
