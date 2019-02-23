@@ -20,8 +20,7 @@ end
 def while_iterator(number_of_times)
   x=0 
   while x<number_of_times
-  puts phrase 
-  phrase = "Welcome to Flatiron School's Web Development Course!"
+  puts  "Welcome to Flatiron School's Web Development Course!"
   x+=1 
 end
 end
