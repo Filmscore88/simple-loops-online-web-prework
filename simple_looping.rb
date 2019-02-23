@@ -1,12 +1,13 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-    x=0
+    x=1
     loop do
-    while x<number_of_times
-      puts"Welcome to Flatiron School's Web Development Course!"
+     puts"Welcome to Flatiron School's Web Development Course!"
       x+=1
-    end  
+      if x<=number_of_times 
+        break
+    
   end
 end
 
